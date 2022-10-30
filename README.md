@@ -21,3 +21,10 @@ Steps:
 1. Please follow [this guide](https://docs.github.com/en/get-started/quickstart/hello-world) to create your first example repository.
 2. Link your Github to your Pycharm IDE with [this guide](https://www.jetbrains.com/help/pycharm/github.html). What this allows you to do is pull, commit, push, and fetch code through the IDE. TLDR: version control with the IDE.
 3. Read and understand how to use Github Desktop [with this guide](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview/getting-started-with-github-desktop).
+
+## Creating Your Project
+This section is a little different as it covers your actual project vs the sample one above. We will be using microPython, ROS, and an ESP32 to manage our sensors.
+
+1. Create your repository in the [Innovation-Factory/Sensors](https://github.com/orgs/UGA-Innovation-Factory/teams/sensors) team. Name it IF2022-SensorName-Sensor. Ex: IF2022-Force-Sensor.
+2. [Follow this guide to setup microPython on your ESP32](https://docs.micropython.org/en/latest/esp32/tutorial/intro.html).
+3. [Install the Pycharm ROS Plugin](https://plugins.jetbrains.com/plugin/11235-ros-support).
