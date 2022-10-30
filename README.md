@@ -1,5 +1,5 @@
 # Innovation Factory Guide
-This repository serves as a guide for the UGA Innovation Factory Sensors team to navigate their projects throughout the school year. It consists of best practices, examples, and setup information. This repository will be continually updated so please star this in order to be notified of any changes.
+This repository serves as a guide for the UGA Innovation Factory Sensors team to navigate their projects throughout the school year. It consists of best practices, examples, and setup information. This repository will be continually updated so please watch and star this in order to be notified of any changes.
 
 ## Getting Started
 Before we can get started with our projects, we must ensure that our workspace is configured correctly and all the necessary tools are installed. I do understand that this is a significant amount of information and tasks to complete, but everything here is immensely beneficial, not only for the Innovation Factory, but as well as for your career.
@@ -22,9 +22,40 @@ Steps:
 2. Link your Github to your Pycharm IDE with [this guide](https://www.jetbrains.com/help/pycharm/github.html). What this allows you to do is pull, commit, push, and fetch code through the IDE. TLDR: version control with the IDE.
 3. Read and understand how to use Github Desktop [with this guide](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview/getting-started-with-github-desktop).
 
+
+An additional resource I would like everyone to read is [this article discussing better Github Commits](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/#:~:text=The%20commit%20type%20subject%20line,of%20the%20subject%20line%20description).
+
+
+TLDR:
+* feat – a new feature is introduced with the changes
+* fix – a bug fix has occurred
+* chore – changes that do not relate to a fix or feature and don't modify src or test files (for example updating dependencies)
+* refactor – refactored code that neither fixes a bug nor adds a feature
+* docs – updates to documentation such as a the README or other markdown files
+* style – changes that do not affect the meaning of the code, likely related to code formatting such as white-space, missing semi-colons, and so on.
+* test – including new or correcting previous tests
+* perf – performance improvements
+* ci – continuous integration related
+* build – changes that affect the build system or external dependencies
+* revert – reverts a previous commit
+
+Example Commit:
+```
+fix: fix foo to enable bar
+
+This fixes the broken behavior of the component by doing xyz. 
+
+BREAKING CHANGE
+Before this fix foo wasn't enabled at all, behavior changes from <old> to <new>
+
+Closes D2IQ-12345
+```
+
 ## Creating Your Project
 This section is a little different as it covers your actual project vs the sample one above. We will be using microPython, ROS, and an ESP32 to manage our sensors.
 
 1. Create your repository in the [Innovation-Factory/Sensors](https://github.com/orgs/UGA-Innovation-Factory/teams/sensors) team. Name it IF2022-SensorName-Sensor. Ex: IF2022-Force-Sensor.
 2. [Follow this guide to setup microPython on your ESP32](https://docs.micropython.org/en/latest/esp32/tutorial/intro.html).
 3. [Install the Pycharm ROS Plugin](https://plugins.jetbrains.com/plugin/11235-ros-support).
+
+
