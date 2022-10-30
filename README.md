@@ -58,4 +58,4 @@ This section is a little different as it covers your actual project vs the sampl
 2. [Follow this guide to setup microPython on your ESP32](https://docs.micropython.org/en/latest/esp32/tutorial/intro.html).
 3. [Install the Pycharm ROS Plugin](https://plugins.jetbrains.com/plugin/11235-ros-support).
 
-
+### This guide is incomplete: please check back soon!
