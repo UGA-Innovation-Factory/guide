@@ -58,4 +58,12 @@ This section is a little different as it covers your actual project vs the sampl
 2. [Follow this guide to setup microPython on your ESP32](https://docs.micropython.org/en/latest/esp32/tutorial/intro.html).
 3. [Install the Pycharm ROS Plugin](https://plugins.jetbrains.com/plugin/11235-ros-support).
 
+## Preliminary Project - Start on 11/10/2022
+The first project you guys will create will be hosted through the Jetson Nano and will be written in Python.
+
+- [ ] Login to the Nano and open up the terminal (Ask Jeff or leadership for password)
+- [ ] [Install Python 3](https://automaticaddison.com/how-to-write-a-python-program-for-nvidia-jetson-nano/)
+- [ ] [Copy the build_opencv.sh shell script to nano with emacs or nvim](https://github.com/mdegans/nano_build_opencv)
+- [ ] Once copied, run ./build_opencv.sh (if you get permissions error: chmod +x ./build_opencv.sh and then run it again)
+
 ### This guide is incomplete: please check back soon!
