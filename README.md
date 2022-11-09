@@ -64,6 +64,6 @@ The first project you guys will create will be hosted through the Jetson Nano an
 - [ ] Login to the Nano and open up the terminal (Ask Jeff or leadership for password)
 - [ ] [Install Python 3](https://automaticaddison.com/how-to-write-a-python-program-for-nvidia-jetson-nano/)
 - [ ] [Copy the build_opencv.sh shell script to nano with emacs or nvim](https://github.com/mdegans/nano_build_opencv)
-- [ ] Once copied, run ./build_opencv.sh (if you get permissions error: chmod +x ./build_opencv.sh and then run it again)
+- [ ] Once copied, run ./build_opencv.sh (if you get permissions error: `chmod +x ./build_opencv.sh` and then run it again)
 
 ### This guide is incomplete: please check back soon!
